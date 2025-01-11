@@ -1,2 +1,4 @@
-# web-420
-Code for RESTful APIs Course
+# WEB 420 RESTful APIs
+## Contributors
+* Richard Krasso
+* Scott Green
