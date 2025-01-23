@@ -15,6 +15,7 @@ app.use(express.json());                        // parse incoming requests as JS
 app.use(express.urlencoded({ extended: true})); // for parsing incoming payloads
 
 app.get("/", async(req, res, next) => {
+  //next(createError(501)); // Creates 501 error
 
   // HTML content for the landing page
   const html = `
