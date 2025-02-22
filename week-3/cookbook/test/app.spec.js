@@ -97,7 +97,7 @@ describe("Chapter 5: API Tests", () => {
   });
 });
 
-describe("Chapter 5: API Tests", () => {
+describe("Chapter 6: API Tests", () => {
   it("should return a 200 status code with a message of 'Registration successful' when registering a new user", async () => {
     const res = await request(app).post("/api/register").send({
       email: "cedric@hogwarts.edu",
